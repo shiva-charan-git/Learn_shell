@@ -3,6 +3,7 @@ echo "Hello, Good morning, Today date is ${DATE}"
 
 #####Cmd Substition
 
-DTAE=$(date)
+
+DATE=$(date)
 
 echo "Hello, Good morning, Today date is ${DATE}"
