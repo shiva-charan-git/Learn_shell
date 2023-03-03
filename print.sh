@@ -16,5 +16,5 @@ echo COL32 Hello world
 # \e[0m -- Zo code is gong to reset the color, meaning if we enable color for suer we need to 
 ## disable it, otherwise the color will continues on the screen.
 
-echo -e "\e[31m Hello in Red color"
+echo -e "\e[31m Hello in Red color \e[0m"
 echo Helo world
